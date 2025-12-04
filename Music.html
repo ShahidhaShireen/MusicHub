@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Music Page</title>
+</head>
+<style>
+    body{
+         background-color: #BBC863;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .box1{
+        width:1400px;
+        height: 700px;
+        margin:0px auto;
+        background-color: #222831;
+        border-radius: 20px;
+        color:#eeeeee;
+    }
+     .box1 p,h1
+    {
+        margin-left:40px;
+        padding: 10px;
+        font-weight: bold;
+    }
+    .box1 #d
+    {
+        display:inline-block;
+        width:800px;
+        height:400px;
+        color: black;
+        margin-left:50px;
+        
+    }
+    .box1 #d div{
+        width: 750px;
+        height:70px;
+        margin-left:10px;
+        padding:10px;
+        border-radius: 10px;
+        
+    }
+    .box1 #d div:hover{
+        background-color: grey;
+    }
+    .box1 #d div audio
+    {
+        display: inline-block;
+        width:400px;
+        vertical-align: middle;
+    }
+    .box1 #d div img{
+        width: 50px;
+        height:50px;
+        vertical-align: middle;
+        margin-right: 15px;
+    }
+    .box1 #e
+    {
+        display: inline-block;
+        vertical-align: top;
+    }
+    .box1 #e img{
+        width: 420px;
+        padding-left: 40px;
+       
+    }
+    .song-name {
+        display: inline-block;      
+        width: 180px;              
+        vertical-align: middle;
+        font-weight: bold;
+        color: #eeeeee;
+    }
+    .box
+    {
+        width:1400px;
+        height: 500px;
+        margin:40px auto;
+        background-color: #222831;
+        border-radius: 20px;
+        color:#eeeeee;
+    }
+    .box p,h1
+    {
+        margin-left:40px;
+        padding: 10px;
+    }
+    .box p
+    {
+        font-size:20px;
+    }
+    .box #b{
+        width: 1400px;
+        height:300px;
+        margin:0px 50px;
+        
+    }
+    .box #b div
+    {
+        display: inline-block;
+        margin:10px;
+    }
+    .box #b  img
+    {
+        width:190px;
+        height: 250px;
+        background-color: #BBC863;
+        border-radius: 10px;
+        box-shadow: -2px 0px 6px 0px #eeeeee;
+    }
+    .box #b p{
+        padding: -10px;
+    }
+    .box #b img:hover
+    {
+        transform: scale(1.1);
+    }
+    .box #b div h3{
+        font-size:16px;
+        text-align: center;
+    }
+    .box #b div h3::before
+    {
+        content: '⚡';
+    }
+</style>
+<body>
+    <div class="box">
+        <h1>Album</h1>
+        <p>Playlist for you</p>
+        <div id="b">
+           <div id="b1"><img src="music/img1.jpeg"><h3>New Playlist of Anirudh</h3></div>
+           <div id="b2"><img src="music/img2.jpeg"><h3>Something New</h3></div>
+           <div id="b3"><img src="music/img3.jpeg"><h3>Evergreen 20+ songs</h3></div>
+           <div id="b4"><img src="music/img4.jpeg"><h3>MindFree Songs</h3></div>
+           <div id="b5"><img src="music/img5.jpeg"><h3>Ariana 50 New Tracks</h3></div>
+           <div id="b6"><img src="music/img6.jpeg"><h3>New Trending Songs</h3></div>
+        </div>
+        </div>
+    </div>
+    <div class="box1">
+        <h1>Playlist</h1>
+        <p>New Playlist of Anirudh</p>
+        <div id="d">
+            <hr>
+            <div class="song">
+                <img src="music/img1.jpeg">
+                <span class="song-name">Monica - Anirudh</span>
+                <audio controls  muted><source src="audio/Monica.mp3" type="audio/mp3"></audio>
+            </div><hr>
+            <div class="song"><img src="music/img1.jpeg">
+                <span class="song-name">Enakenna Yarum Illaye</span>
+                <audio controls  muted>
+			    <source src="audio/Enakenna_Yaarum_Illaye_-_Anirudh_Ravichander.mp3" type="audio/mp3">
+		        </audio></div><hr>
+             <div class="song">
+                <img src="music/img1.jpeg">
+                <span class="song-name">Thangapoovey - Anirudh</span>
+                <audio controls  muted><source src="audio/Thangapoovey_-_Anirudh_Ravichander.mp3" type="audio/mp3"></audio>
+            </div><hr>
+            <div class="song">
+                <img src="music/img1.jpeg">
+                <span class="song-name">Arasan - Anirudh</span>
+                <audio controls  muted><source src="audio/Vetri_Maarans_Arasan_BGM_Anirudh_Ravichander.mp3" type="audio/mp3"></audio>
+             </div><hr>
+             <div class="song">
+                <img src="music/img1.jpeg">
+                <span class="song-name">Powerhouse - Anirudh</span>
+                <audio controls  muted><source src="audio/Powerhouse_Vibe_From_34Coolie34.mp3" type="audio/mp3"></audio>
+            </div><hr>
+        </div>
+        <div id="e">
+            <img src="music/img1.jpeg">
+        </div>
+    </div>
+
+</body>
+</html>

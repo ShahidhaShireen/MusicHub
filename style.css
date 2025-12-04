@@ -1,0 +1,151 @@
+ body
+    {
+        background-color: #BBC863;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    }
+    .container
+    {
+        margin:50px;
+        width:1400px;
+        height:670px;
+    }
+    .cnt{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        height:650px;
+        width:1300px;
+        background-color: #eeeeee;
+        border-radius: 20px;
+        border :5px solid #84994F;
+    }
+    .right
+    {
+        height:650px;
+        width:1000px;
+        display: inline-block;
+        vertical-align: top;
+        background-color: #eeeeee;
+        border-radius: 20px;
+        border :5px solid #84994F;
+    }
+    .right p
+    {
+        font-size: 35px;
+        margin: 40px;
+        font-weight: bolder;
+        color:#222831;
+    }
+    .right #rightbox
+    {
+        background-color:#84994F;
+        height:280px;
+        width: 700px;
+        margin:40px;
+        padding: 20px;
+        color:#eeeeee;
+        border-radius: 10px;
+        
+    }
+    .right #rightbox #content
+    {
+        display: inline-block;
+        width:340px;
+        
+    }
+    .right #rightbox #img1 {
+         float: right;
+         vertical-align: top;
+        }
+
+    .right #rightbox #img1 img
+    {
+        display:inline-block;
+        width:240px;
+        border-radius: 10px;
+        border: 2px solid white;
+    }
+    .right #rightbox #content button{
+        margin-top:60px;
+        border-radius: 50px;
+        padding: 15px;
+        width:200px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: monospace;
+        box-shadow: -2px 0px 10px 0px #DFD0B8;
+    }
+    .right #rightbox #content button:hover{
+        background-color: #A8BBA3;
+        transform: scale(0.9);
+    }
+    .right h1
+    {
+        padding-top:10px;
+    }
+    .left
+    {
+        display: inline-block;
+        text-align: left;
+        width:300px;
+        height: 650px;
+        background-color: #222831;
+        color:#DFD0B8;
+        border-radius: 30px;
+        vertical-align: top;
+    }
+    .left h1{
+        text-align: center;
+    }
+    .left li
+    {
+        list-style-type: none;
+        font-size: 20px;
+        padding: 23px;
+    }
+    .left li a
+    {
+        color:#DFD0B8;
+        text-decoration: none;
+    }
+    .left li:hover
+    {
+        background-color: #393E46;
+    }
+    .left h1::before
+    {
+        content: '🎸';
+    }
+   .about-box, .contact-box {
+  width: 1000px;
+  margin: 40px auto;
+  background-color: #222831;
+  border-radius: 20px;
+  color: #eeeeee;
+  padding: 20px 40px;
+}
+
+.about-box h1, .contact-box h1 {
+  color: #BBC863;
+  margin-bottom: 10px;
+}
+.about-box p::first-letter
+{
+    font-family: cursive;
+    color:#BBC863;
+    font-size: 25px;
+}
+.about-box p, .contact-box p {
+  color: #dddddd;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: justify;
+}
+.contact-box li{
+    list-style-type: square;
+}
+.contact-box li::marker
+{
+    color:#BBC863;
+    font-size: 30px;
+}

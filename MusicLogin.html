@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+</head>
+<style>
+    body
+    {
+        background-image: url('music/login.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        color: antiquewhite;
+    }
+    .box
+    {
+        height: 500px;
+        width:600px;
+        background-color: #393E46;
+        margin: 100px auto;
+        
+    }
+   .box h1
+   {
+   text-align: center;
+   padding: 50px;
+
+   }
+   .box form
+   {
+    padding-left: 130px;
+    font-size: 20px;
+   }
+   .box form input {
+        margin-left: 10px;
+        margin-bottom: 30px; 
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        width:250px;
+        box-shadow:-2px 0px 10px 0px #DFD0B8;
+   }
+   .box form input:hover{
+    background-color: #DFD0B8;
+    color: aqua;
+    transform: scale(1.1);
+   }
+   .box form #btn
+   {
+    margin-top:10px;
+    margin-left: 40px;
+    padding:10px 70px;
+    font-size: 15px;
+    font-weight: bold;
+   }
+ .box form #btn:hover{
+    transform: scale(0.9);
+    background-color: #DFD0B8;
+    color: black;
+ }
+ .box p{
+    font-size: 16px;
+    padding-left: 40px;
+ }
+ .box p:hover{
+     color: #ceb68f;   
+ }
+</style>
+<body>
+    <div class="box">
+        <h1>Login</h1>
+        <form>
+            <labe>Username </label><input type="text" placeholder="Enter your username..."><br>
+            <label>Password </label><input type="password" placeholder="Enter your username...">
+             <br>
+            <input type="submit" id="btn">
+        </form>
+       <p>Forget Password | Create New Account</p>
+    </div>
+</body>
+</html>
